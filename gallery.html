@@ -54,14 +54,163 @@
 			</div>
 		</nav>
 
-		<main class="content-container">
+		<main class="gallery-container">
 			<div class="page-header">
 				<h1>Gallery</h1>
-				<p>A collection of my drawings</p>
+				<p>My art collection</p>
 			</div>
-			<!-- Gallery content will be added here -->
+
+			<div class="masonry-grid">
+				<!-- Portrait - Tall -->
+				<div
+					class="gallery-item"
+					data-aspect="portrait"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #6c5ce7"
+					></div>
+				</div>
+
+				<!-- Square -->
+				<div
+					class="gallery-item"
+					data-aspect="square"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #fd79a8"
+					></div>
+				</div>
+
+				<!-- Landscape - Wide -->
+				<div
+					class="gallery-item"
+					data-aspect="landscape"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #a29bfe"
+					></div>
+				</div>
+
+				<!-- Portrait -->
+				<div
+					class="gallery-item"
+					data-aspect="portrait"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #74b9ff"
+					></div>
+				</div>
+
+				<!-- Square -->
+				<div
+					class="gallery-item"
+					data-aspect="square"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #55efc4"
+					></div>
+				</div>
+
+				<!-- Landscape -->
+				<div
+					class="gallery-item"
+					data-aspect="landscape"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #ffeaa7"
+					></div>
+				</div>
+
+				<!-- Portrait -->
+				<div
+					class="gallery-item"
+					data-aspect="portrait"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #ff7675"
+					></div>
+				</div>
+
+				<!-- Square -->
+				<div
+					class="gallery-item"
+					data-aspect="square"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #fd79a8"
+					></div>
+				</div>
+
+				<!-- Landscape -->
+				<div
+					class="gallery-item"
+					data-aspect="landscape"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #6c5ce7"
+					></div>
+				</div>
+
+				<!-- Portrait -->
+				<div
+					class="gallery-item"
+					data-aspect="portrait"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #a29bfe"
+					></div>
+				</div>
+
+				<!-- Square -->
+				<div
+					class="gallery-item"
+					data-aspect="square"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #74b9ff"
+					></div>
+				</div>
+
+				<!-- Landscape -->
+				<div
+					class="gallery-item"
+					data-aspect="landscape"
+				>
+					<div
+						class="placeholder"
+						style="background-color: #55efc4"
+					></div>
+				</div>
+			</div>
 		</main>
 
+		<!-- Lightbox Modal -->
+		<div
+			id="lightbox"
+			class="lightbox"
+		>
+			<span class="lightbox-close">&times;</span>
+			<div class="lightbox-content">
+				<div class="lightbox-image-container">
+					<div id="lightbox-placeholder"></div>
+				</div>
+				<button class="lightbox-prev">&#10094;</button>
+				<button class="lightbox-next">&#10095;</button>
+			</div>
+		</div>
+
 		<script src="script.js"></script>
+		<script src="gallery.js"></script>
 	</body>
 </html>
